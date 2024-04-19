@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+*{
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    position: relative;
+    background-color: #141b29;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header {
+    grid-area: 1 / 2 / 2 / -1;
+}
+
+.left-Bar{
+    grid-area: 1 / 1 / -1 / 2;
+    background-color: #36374C;
+    opacity: 0.8;
+}
+
+.right-Bar{
+    grid-area: 2/6/ -1 / -1;
+    background-color: #36374C;
+    opacity: 0.8;
+}
+
+.headerBar{
+    display: block;
+    background-color: azure;
+    height: 80px;
+    opacity: 0.8;
+    border-radius: 0px, 0px, 30px, 30px;
+}
+
+.headerText {
+    font-family: "Jersey 20", sans-serif;
+    font-style: normal;
+    color: #ef672a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.leftMenu{
+    margin: auto;
+    display: block;
+    width: 80%;
+    height: 80%;
+    border-radius: 25px;
+    background-color: azure;
+    opacity: 0.8;
+}
