@@ -576,3 +576,131 @@ svg {
     font-size: large;
     color:#fa186b;
 }
+/*feizhen: concert*/
+#concert-banner{
+    margin-left: 40px;
+    display: flex;
+}
+
+#description{
+    flex:2;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+#banner-pic{
+    flex:1;
+}
+
+#banner-pic img{
+    width:110%;
+    height:auto;
+}
+
+#description h1{
+    font-size: 80px;
+    text-align: center;
+    color: #ff2a78;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#description p{
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #ddcfcf;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+#concert{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #191919;
+}
+
+#concert-intro{
+    flex: 2;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+#concert-intro h2{
+    font-size: 28px;
+    color: #ff2a78;
+    margin-bottom: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+}
+
+#concert-intro img{
+    width: 80%;
+    height: auto;
+    margin-top: 10px;
+}
+
+#concert-details{
+    flex: 3;
+    padding: 20px;
+    margin:20px;
+}
+
+.ticket {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+.ticket-column {
+    flex: 1;
+    text-align: center;
+}
+.ticket-details{
+    flex:6;
+    padding:5px;
+}
+
+.date{
+    font-size: 23px;
+}
+
+.ticket-venue{
+    color: #555;
+}
+.ticket-time, .ticket-concert {
+    color: #999; /* Faded color */
+}
+
+.find-ticket-button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #ff2a78;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    white-space: nowrap;
+    font-size: 16px;
+}
+
+.find-ticket-button:hover {
+    background-color: #d61e63;
+}
+
+.the-quote a {
+    color: inherit; /* Inherit the color from the parent element */
+    font: inherit;
+    text-decoration: underline; /* Underline the link */
+}
+
+.the-quote a:hover {
+    color: #ff2a78; /* Change color on hover */
+}
