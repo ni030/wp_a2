@@ -286,7 +286,7 @@ svg {
 .guitar-row {
     padding:10px;
     background-color:#1a1717;
-    z-index: -1;
+    z-index: 0;
 }
 
 .guitar-row:after{
@@ -298,6 +298,7 @@ svg {
     padding:10px;
     background-color:#1a1717;
     z-index: -1;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .find-row:after{
@@ -316,6 +317,8 @@ svg {
     background-color:beige;
     font: weight 120px;;
     color:black;
+    font-size:17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .button span {
     cursor: pointer;
@@ -344,7 +347,7 @@ svg {
 .guitar-column{
     text-align: center;
     float:left;
-    width:340px;
+    width:30%;
     height:380px;
     padding:15px;
 }
@@ -392,14 +395,14 @@ svg {
 }
 .intro-pic{
     opacity: 30%;
-    width:90%;
+    width:100%;
     position: relative;
     text-align: center;
     color: white;
 }
 .guitar-intro-text{
-    font-family: Georgia;
-    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
     position:absolute;
     top: 80%;
     left: 40%;
@@ -421,16 +424,40 @@ svg {
 }
 .find-text{
     color:#fa186b;
-    font-size: large;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.guitar-intro-title{
+    color:#f92070;
+    font-size:100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 .instruction{
-    font-size: 25px;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: bold;
 }
 
-/****************** IDOL *******************/
+
+/***************** IDOL ******************/
+.idol-intro-row {
+    padding:10px;
+    background-color:#000000;
+    z-index: -1;
+}
+.idol-intro-row:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+.idol-intro-pic{
+    width:550px;
+    opacity: 40%;
+}
 .idol-row {
     padding:10px;
-    background-color: lightgray;
+    background-color: rgb(9, 6, 6);
     z-index: -1;
 }
 
@@ -439,22 +466,74 @@ svg {
     display:table;
     clear:both;
 }
+.idol-intro-column{
+    color: white;
+    float:left;
+    height:550px;
+    padding:15px;
+    width: 43%;
+    padding-left:5%;
+}
+.idol-intro-column-pic{
+    float:left;
+    height:550px;
+    width: 30%;
+    padding-top:2%;
+    padding-right:15%;
+}
+.idol-intro-text{
+    color:#f92070;
+    font-size: 100px;
+    text-align: left;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.idol-intro-desc{
+    color: white;
+    font-size:26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
 .column{
     float:left;
     height:300px;
     padding:15px;
 }
 .idol-column-pic{
-    width:200px;
+    width:20%;
     padding-left:15%;
+    padding-right:5%;
+    padding-top: 5%;
     position: relative;
 }
-.idol-column-desc{
-    width:60%;
-    padding:30px;
+.idol2-column-pic{
+    width:25%;
     padding-left: 10%;
-    padding-right:12%;
+    padding-top:3%;
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.idol-column-desc{
+    color: white;
+    width:48%;
+    padding-top:3%;
+    padding-right:7%;
     text-align:justify;
+}
+.idol2-column-desc{
+    padding-top:3%;
+    color: white;
+    width:50%;
+    padding-left: 10%;
+    text-align:justify;
+}
+.idol-name{
+    color:#ff2a78;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bolder;
 }
 .ig-icon{
     width: 41px;
@@ -468,6 +547,7 @@ svg {
     width: 50px;
     height: 50px;
 }
+
 .profile-option{
     justify-content: center;
     align-items: center;
@@ -475,5 +555,24 @@ svg {
     gap:30px;
 }
 .idol1-pic{
-    width:150px;
+    width:180px;
+    height:230px;
+}
+.idol2-pic{
+    width:180px;
+    height:210px;
+}
+.idol-desc{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.idol2-desc{
+    padding-left: 5%;
+    padding-right:0px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.profile{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    color:#fa186b;
 }
