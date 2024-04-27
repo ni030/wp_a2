@@ -9,20 +9,19 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <!-- <div class="headerBar"></div> -->
         <div class="headerText">
-            <div><img height="350px" src="wp2image/profileTS.jpg" alt=""></div>
+            <div><img height="500px" style="opacity: 0.6;" src="wp2image/profileTS.jpg" alt=""></div>
             <div style="width: 60%;">
                 <h1>ABOUT ME</h1>
                 <h2>A Singer & Guitar Player</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.,<br> Vitae nesciunt temporibus tempora
-                    molestias magnam perferendis eveniet placeat autem fugiat doloremque non ipsam ducimus aspernatur,
-                    ut voluptas repellendus perspiciatis officia reprehenderit.</p>
+                <p>Hey there, I'm Taylor Swift. You might know me as the singer-songwriter who's been penning melodies and sharing stories for years now. From my country beginnings to dominating the pop scene, my journey's been quite the ride. With each album, I've poured my heart out, and it's incredible to see how my music connects with people everywhere. It's been quite the journey, and I'm just getting started.</p>
             </div>
         </div>
+    </header>
 
-    <section id="JiaAn1">
+    <section id="JiaAn1" class="guitar-grid">
         <div class="Jiaan">
             <div class="guitar">
                 <div class="guitar-intro">
@@ -118,7 +117,7 @@
     </section>
 
     <!--kaixuen-->
-    <section id="kaixuenDisk">
+    <section id="kaixuenDisk" class="disk-grid">
         <div class="thedisk-left">
             <img src="wp2image/disk.PNG">
         </div>
@@ -127,11 +126,11 @@
                 <h1>The Albums</h1>
                 <span class="square"></span>
                 <p>Welcome to the heart of Taylor Swift's musical journey – the Albums.
-                     Immerse yourself in the rich tapestry of Taylor's discography, 
-                     where every album is a chapter in her captivating story.
-                     From the innocence of her self-titled debut album to the 
-                      raw vulnerability of "folklore" and "evermore," each record is a testament 
-                      to Taylor's evolution as an artist and storyteller. </p><br><br>
+                        Immerse yourself in the rich tapestry of Taylor's discography, 
+                        where every album is a chapter in her captivating story.
+                        From the innocence of her self-titled debut album to the 
+                        raw vulnerability of "folklore" and "evermore," each record is a testament 
+                        to Taylor's evolution as an artist and storyteller. </p><br><br>
     
                 <div class="line">
                         <br>
@@ -144,7 +143,8 @@
             </div>
         </div>
     </section> <!--end disk-->
-    <section id="kaixuenAlbum">
+
+    <section id="kaixuenAlbum" class="album-grid">
 
         <div class="album-row1">
             <div class="albumcol">
@@ -157,7 +157,7 @@
 
             <div class="albumcol">
                 <a href="https://www.youtube.com/watch?v=FsGdznlfE2U&list=PLmU8B4gZ41icgJv5WmjkK6c3KyOpVEDkI">
-                  <img src="wp2image/the1989.png">
+                    <img src="wp2image/the1989.png">
                 </a>
                 <h4>1989 (Taylor's Version)</h4>
                 <p>releases on October 27, 2023</p>
@@ -204,17 +204,15 @@
             </div>
 
         </div>
-    </section> <!--end album-->
-    <section>
         <div class="the-quote">
             <h2>In  every  album,  she is  writing  a  diary  entry  of  her  life.</h2>
             <br>
             <br>
         </div>
-    </section>
+    </section> <!--end album-->
 
     <!--  Idol -->
-    <section id="JiaAn2">
+    <section id="JiaAn2" class="idol-grid">
         <div class="idol-intro">
             <img src="wp2image/idol.png" class="idol-intro-pic">
             <div class="idol-title">My Idols<br>
@@ -268,127 +266,129 @@
         </div>
     </section>
 
-     <!--feizhen: concert-->
-     <!--banner-->
-     <section id="concert-banner">
-        <div id="description">
-            <h1>The Eras Tour</h1>
-            <p>Announced after the release of her tenth studio album, Midnights (2022), the Eras Tour is Swift's second all-stadium tour after the 2018 Reputation Stadium Tour. Each show spans over 3.5 hours, with a set list of 44 songs grouped into 10 distinct acts that portray Swift's studio albums conceptually. It has received widespread acclaim from critics, emphasizing its concept, production, aesthetics and immersive ambience, as well as Swift's musicianship, vocals, stage presence and versatility.</p>
-        </div>
-        <div id="banner-pic">
-            <img src="wp2image/concert_background.jpg" alt="Concert Image">
-        </div>
-     </section>
-     
-     <!--concert list-->
-     <section id="concert">
-        <div id="concert-intro">
-                <h2>Get Ready to Shake It Off!<br>
-                    Taylor Swift's Upcoming Concert in May, Spain</h2>
+    <div  class="concert-grid">
+        <!--feizhen: concert-->
+        <!--banner-->
+        <section id="concert-banner">
+            <div id="description">
+                <h1>The Eras Tour</h1>
+                <p>Announced after the release of her tenth studio album, Midnights (2022), the Eras Tour is Swift's second all-stadium tour after the 2018 Reputation Stadium Tour. Each show spans over 3.5 hours, with a set list of 44 songs grouped into 10 distinct acts that portray Swift's studio albums conceptually. It has received widespread acclaim from critics, emphasizing its concept, production, aesthetics and immersive ambience, as well as Swift's musicianship, vocals, stage presence and versatility.</p>
+            </div>
+            <div id="banner-pic">
+                <img src="wp2image/concert_background.jpg" alt="Concert Image">
+            </div>
+            </section>
             
-            <img src="wp2image/concert_poster2.png" alt="Concert Image">
-        </div>
-        <div id="concert-details">
-            <!--1st ticket-->
-            <div class="ticket">
-                <div class="ticket-column">
-                        May
-                        <div class="date">17</div>
-                </div>
-                <div class="ticket-details">
-                    <div class="ticket-time">Fri•6:15pm</div>
-                    <div class="ticket-venue">Stockholm, SE•Friends Arena</div>
-                    <div class="ticket-concert">The Eras Tour</div>
-                </div>
-                <div class="ticket-column">
-                    <button class="find-ticket-button" onclick="window.location.href='https://www.ticketmaster.com/taylor-swift-tickets/artist/1094215'">Find Ticket</button>
-                </div>
+            <!--concert list-->
+            <section id="concert">
+            <div id="concert-intro">
+                    <h2>Get Ready to Shake It Off!<br>
+                        Taylor Swift's Upcoming Concert in May, Spain</h2>
+                
+                <img src="wp2image/concert_poster2.png" alt="Concert Image">
             </div>
-             <!--2nd ticket-->
-            <div class="ticket">
-                <div class="ticket-column">
-                        May
-                        <div class="date">18</div>
+            <div id="concert-details">
+                <!--1st ticket-->
+                <div class="ticket">
+                    <div class="ticket-column">
+                            May
+                            <div class="date">17</div>
+                    </div>
+                    <div class="ticket-details">
+                        <div class="ticket-time">Fri•6:15pm</div>
+                        <div class="ticket-venue">Stockholm, SE•Friends Arena</div>
+                        <div class="ticket-concert">The Eras Tour</div>
+                    </div>
+                    <div class="ticket-column">
+                        <button class="find-ticket-button" onclick="window.location.href='https://www.ticketmaster.com/taylor-swift-tickets/artist/1094215'">Find Ticket</button>
+                    </div>
                 </div>
-                <div class="ticket-details">
-                    <div class="ticket-time">Sat•6:15pm</div>
-                    <div class="ticket-venue">Stockholm, SE•Friends Arena</div>
-                    <div class="ticket-concert">The Eras Tour</div>
+                    <!--2nd ticket-->
+                <div class="ticket">
+                    <div class="ticket-column">
+                            May
+                            <div class="date">18</div>
+                    </div>
+                    <div class="ticket-details">
+                        <div class="ticket-time">Sat•6:15pm</div>
+                        <div class="ticket-venue">Stockholm, SE•Friends Arena</div>
+                        <div class="ticket-concert">The Eras Tour</div>
+                    </div>
+                    <div class="ticket-column">
+                        <button class="find-ticket-button" onclick="window.location.href='https://www.ticketmaster.com/taylor-swift-tickets/artist/1094215'">Find Ticket</button>
+                    </div>
                 </div>
-                <div class="ticket-column">
-                    <button class="find-ticket-button" onclick="window.location.href='https://www.ticketmaster.com/taylor-swift-tickets/artist/1094215'">Find Ticket</button>
+                <!--3rd ticket-->
+                <div class="ticket">
+                    <div class="ticket-column">
+                            May
+                            <div class="date">19</div>
+                    </div>
+                    <div class="ticket-details">
+                        <div class="ticket-time">Sun•6:15pm</div>
+                        <div class="ticket-venue">Stockholm, SE•Friends Arena</div>
+                        <div class="ticket-concert">The Eras Tour</div>
+                    </div>
+                    <div class="ticket-column">
+                        <button class="find-ticket-button" onclick="window.location.href='https://www.ticketmaster.com/taylor-swift-tickets/artist/1094215'">Find Ticket</button>
+                    </div>
+                </div> 
+                <!--4th ticket-->
+                <div class="ticket">
+                    <div class="ticket-column">
+                            May
+                            <div class="date">29</div>
+                    </div>
+                    <div class="ticket-details">
+                        <div class="ticket-time">Wed•8:00pm</div>
+                        <div class="ticket-venue">Madrid, ES•Estadio Santiago Bernabéu</div>
+                        <div class="ticket-concert">The Eras Tour</div>
+                    </div>
+                    <div class="ticket-column">
+                        <button class="find-ticket-button" onclick="window.location.href='https://www.ticketmaster.com/taylor-swift-tickets/artist/1094215'">Find Ticket</button>
+                    </div>
                 </div>
-            </div>
-            <!--3rd ticket-->
-            <div class="ticket">
-                <div class="ticket-column">
-                        May
-                        <div class="date">19</div>
+                <!--5th ticket-->
+                <div class="ticket">
+                    <div class="ticket-column">
+                            May
+                            <div class="date">30</div>
+                    </div>
+                    <div class="ticket-details">
+                        <div class="ticket-time">Thu•6:15pm</div>
+                        <div class="ticket-venue">Madrid, ES•Estadio Santiago Bernabéu</div>
+                        <div class="ticket-concert">The Eras Tour</div>
+                    </div>
+                    <div class="ticket-column">
+                        <button class="find-ticket-button" onclick="window.location.href='https://www.ticketmaster.com/taylor-swift-tickets/artist/1094215'">Find Ticket</button>
+                    </div>
                 </div>
-                <div class="ticket-details">
-                    <div class="ticket-time">Sun•6:15pm</div>
-                    <div class="ticket-venue">Stockholm, SE•Friends Arena</div>
-                    <div class="ticket-concert">The Eras Tour</div>
-                </div>
-                <div class="ticket-column">
-                    <button class="find-ticket-button" onclick="window.location.href='https://www.ticketmaster.com/taylor-swift-tickets/artist/1094215'">Find Ticket</button>
-                </div>
-            </div> 
-            <!--4th ticket-->
-            <div class="ticket">
-                <div class="ticket-column">
-                        May
-                        <div class="date">29</div>
-                </div>
-                <div class="ticket-details">
-                    <div class="ticket-time">Wed•8:00pm</div>
-                    <div class="ticket-venue">Madrid, ES•Estadio Santiago Bernabéu</div>
-                    <div class="ticket-concert">The Eras Tour</div>
-                </div>
-                <div class="ticket-column">
-                    <button class="find-ticket-button" onclick="window.location.href='https://www.ticketmaster.com/taylor-swift-tickets/artist/1094215'">Find Ticket</button>
-                </div>
-            </div>
-            <!--5th ticket-->
-            <div class="ticket">
-                <div class="ticket-column">
-                        May
-                        <div class="date">30</div>
-                </div>
-                <div class="ticket-details">
-                    <div class="ticket-time">Thu•6:15pm</div>
-                    <div class="ticket-venue">Madrid, ES•Estadio Santiago Bernabéu</div>
-                    <div class="ticket-concert">The Eras Tour</div>
-                </div>
-                <div class="ticket-column">
-                    <button class="find-ticket-button" onclick="window.location.href='https://www.ticketmaster.com/taylor-swift-tickets/artist/1094215'">Find Ticket</button>
-                </div>
-            </div>
-            <div class="the-quote">
-                <h2><br>For more concert information pls visit <a href="https://www.ticketmaster.com/taylor-swift-tickets/artist/1094215">Ticketmaster</a>.</h2>
-            </div>                                                         
-        </div>    
-    </section>
-    </header>
+                <div class="the-quote">
+                    <h2><br>For more concert information pls visit <a href="https://www.ticketmaster.com/taylor-swift-tickets/artist/1094215">Ticketmaster</a>.</h2>
+                </div>                                                         
+            </div>    
+            </section>
+    </div>
 
+    
     <nav class="left-Bar">
         <div class="leftMenu">
             <ul>
-                <li>
-                    <a href=".header" class="linker">ABOUT ME</a>
-                </li>
-                <li>
-                    <a href="#JiaAn1" class="linker">MY GUITARS</a>
-                </li>
-                <li>
-                    <a href="#kaixuenDisk" class="linker">ALBUM & SONG</a>
-                </li>
-                <li>
-                    <a href="#JiaAn2" class="linker">IDOL</a>
-                </li>
-                <li>
-                    <a href="#concert-banner" class="linker">COMING SOON</a> 
-                </li>
+                <a href="#header" class="linker">
+                    <li>ABOUT ME</li>
+                </a>
+                <a href="#JiaAn1" class="linker">
+                    <li>MY GUITARS</li>
+                </a>
+                <a href="#kaixuenDisk" class="linker">
+                    <li>ALBUM & SONG</li>
+                </a>
+                <a href="#JiaAn2" class="linker">
+                    <li>IDOL</li>
+                </a>
+                <a href="#concert-banner" class="linker">
+                    <li>COMING SOON</li>
+                </a>
             </ul>
         </div>
     </nav>

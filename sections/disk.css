@@ -1,0 +1,109 @@
+/*kaixuen*/
+/*----------------The disk part-------------------*/
+#kaixuenDisk{
+    padding: 100px 0; 
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.thedisk-left{
+    flex-basis: 50%;
+}
+.thedisk-left img{
+    width: 90%;
+}
+.thedisk-right{
+    flex-basis: 50%;
+    text-align: right; 
+}
+.thedisk-right h1{
+    font-size: 90px;
+    color: #ff2d77;
+    font-family: sans-serif;
+}
+.disk-text{
+    max-width: 500px;
+    margin-right: 100px;
+    margin-top: 50px;
+    display: inline-block;
+}
+.disk-text h1{
+    color: #ff2d77;
+}
+.disk-text p{
+    color: #ddcfcf;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.disk-text h2{
+    margin: 30px 0 10px;
+    font-size: 28px;
+    font-style: italic;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+.disk-text h3{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #ff2d77;
+}
+
+/*----------------The album part-------------------*/
+#kaixuenAlbum{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.album-row1{
+    width: 80%;
+    margin: auto; 
+    display: flex; 
+    align-items: center;
+    align-items: flex-start; 
+    flex-wrap: wrap;
+}
+.album-row2{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    align-items: flex-start; /* fix the photo stick on top*/
+    flex-wrap: wrap;
+}
+.albumcol{
+    flex-basis: 25%;
+    text-align: center;
+}
+.albumcol img{ 
+    width: 160px;
+    border: 6px solid #ff2a78;
+}
+.albumcol h4{ 
+    margin-top: 10px;
+    margin-bottom:15px;
+    font-size: 17px;
+    font-weight: 20;
+    color: #ffffff;
+    font-family: Helvetica;
+}
+.albumcol p{
+    font-size: 12px;
+    margin-top: 8px;
+    margin-bottom: 30px;
+    padding-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #c7c7c7;
+}
+
+/* the quote */
+.the-quote h2{
+    font-size: 16px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-bottom: 80px;
+    margin-top: 0px;
+    color: aliceblue;
+    word-spacing: 0.4em;
+}
