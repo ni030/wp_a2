@@ -1,0 +1,68 @@
+.teamTitle{
+	font-size: 68pt;
+	color:#ff2a78;
+	text-align: center;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cardContainer .card{
+    position: relative;
+	width: 220px;
+	height: 293px;
+	background: rgba(255, 255, 255, 0.05);
+	margin: 10px 20px 150px 20px;
+	box-shadow: rgb(255, 42, 120) 0px 0px 0px 2px;	
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	backdrop-filter: blur(10px);
+	transition: all 0.5s;
+}
+
+.cardContainer .card:hover{
+	/* transform: translateY(-20px); */
+	box-shadow: rgba(255, 42, 120, 0.4) 5px 5px, rgba(255, 42, 120, 0.3) 10px 10px, rgba(255, 42, 120, 0.2) 15px 15px, rgba(255, 42, 120, 0.1) 20px 20px, rgba(255, 42, 120, 0.05) 25px 25px;
+	animation: bounce 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.cardContainer .card .imgBox {
+	position: relative;
+	top: -15px;
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	border-radius: 20px
+}
+
+.cardContainer .card .imgBox img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.cardContainer .card span{
+	position: absolute;
+	bottom: 8%;
+	color: white;
+	text-align: center;
+	line-height: 22px;
+}
+
+@keyframes bounce {
+	0%, 100%{
+		transform: translateY(0px);
+	}
+	50%{
+		transform: translateY(-20px);
+	}
+}

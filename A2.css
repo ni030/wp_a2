@@ -5,7 +5,7 @@
 @import url('sections/disk.css');
 @import url('sections/guitar.css');
 @import url('sections/idol.css');
-
+@import url('sections/team.css');
 
 body {
     margin: 0;
@@ -62,16 +62,13 @@ header {
 
 .concert-grid {
     grid-area: 6 / 2 / 7 / -1;
-
 }
 
 .content {
-    /* grid-area: 2 / 2 / 7 / -1; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    /* overflow: hidden; */
 }
 
 .footer {
@@ -81,13 +78,19 @@ header {
 
 .headerText {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: x-large;
+    font-size: xx-large;
     color: #ff2a78;
     display: flex;
-    justify-content: center;
+    justify-content:flex-start;
     align-items: center;
     padding: 30px;
     overflow: hidden;
+}
+
+.headerText h2{
+    color:#e4769f;
+    margin: 0%;
+    font-size: 32pt;
 }
 
 .headerText img{
@@ -99,6 +102,7 @@ header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 100;
     font-style: normal;
+    font-size: large;
 }
 
 .leftMenu {
@@ -111,6 +115,10 @@ header {
     width: 100%;
     border-radius: 20px;
     color:#ff2382;
+}
+
+.leftMenu ul{
+    padding-inline-start: 0;
 }
 
 .leftMenu ul a {
@@ -188,10 +196,6 @@ header {
     padding: 10px;
 }
 
-svg {
-    fill: #635f61;
-}
-
 .footerBox {
     display: flex;
     align-items: center;
@@ -207,3 +211,13 @@ svg {
     letter-spacing: 0.8em;
     word-spacing: 0.4;
 }
+
+@media only screen and (max-width: 768px) {
+    .left-Bar{
+        position: sticky;
+        width: 260px;
+    }
+    .headerText{
+        flex-direction: column;
+    }
+  }
